@@ -1,9 +1,9 @@
 # my personal blog
 ##Blog Engineer
 HEXO: https://hexo.io
-
-Next(Theme): http://theme-next.iissnan.com
-
+##Theme
+Next: http://theme-next.iissnan.com
+##Deploy Server
 Github Pages: http://madawei2699.github.io
-
-Tour: http://jianghao.wang/2015/hexo-github
+##Tour
+http://jianghao.wang/2015/hexo-github
