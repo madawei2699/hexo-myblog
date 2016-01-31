@@ -5,7 +5,7 @@
 # Site
 title: Dawei Ma's Notes
 subtitle:
-description: Coder Trader GTDer
+description: Coder/Trader/GTDer
 author: Dawei Ma
 language: zh-Hans
 timezone: Asia/Chongqing
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
