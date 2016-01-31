@@ -71,8 +71,11 @@ scheme: Pisces
 # Social links
 social:
   GitHub: https://github.com/madawei2699
-  Twitter: https://twitter.com/madawei2699
+  StackOf: http://stackoverflow.com/users/1615816/dawei-ma
   知乎: http://www.zhihu.com/people/zfish
+  Quora: https://www.quora.com/profile/Dawei-Ma-1
+  Twitter: https://twitter.com/madawei2699
+
   # 等等
 
 # Social Icons
@@ -82,7 +85,8 @@ social_icons:
   GitHub: github
   Twitter: twitter
   知乎: book
-
+  Quora: question
+  StackOf: stack-overflow
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -148,7 +152,7 @@ scroll_to_more: true
 # Automatically Excerpt
 auto_excerpt:
   enable: true
-  length: 150
+  length: 600
 
 # Use Lato font
 use_font_lato: true
