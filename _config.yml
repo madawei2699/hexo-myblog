@@ -5,7 +5,7 @@
 # Site
 title: Dawei Ma's Notes
 subtitle:
-description: Coder/Trader/GTDer
+description: Coder Trader GTDer
 author: Dawei Ma
 language: zh-Hans
 timezone: Asia/Chongqing
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -72,4 +72,19 @@ deploy:
   type: git
   repository: git@github.com:madawei2699/madawei2699.github.io.git
   branch: master
-  
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
+
+# 设置为`false`不显示`rss`链接
+# 留空，并且通过`hexo-site-feed`插件配置使用默认的feed
+# 设置成特定的`url`，适用于通过第三方服务定制feed的情况。
+rss: 
+
+# 搜索引擎站点地图
+sitemap:
+    path: sitemap.xml
