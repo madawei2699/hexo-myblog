@@ -330,6 +330,21 @@ HOBBIES
   top: 6px;
   left: 7px;
 }
+.hobby1{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 5px;
+  background: #A75265;
+  position: relative;
+  font-size: 1.2em;
+  width: 80px;
+  text-align: center;
+}
+.hobby1 i{
+  padding: 3px;
+}
 /*******************************************
 MEDIA
 *******************************************/
