@@ -177,7 +177,7 @@ baidu_analytics: 12dc9626a1466b4bcaf47445e640578f
 duoshuo_shortname: madawei2699
 
 # 多说热评文章 true 或者 false
-duoshuo_hotartical: true
+duoshuo_hotartical: false
 
 # Disqus
 #disqus_shortname:
@@ -186,7 +186,7 @@ duoshuo_hotartical: true
 # jiathis: true
 
 # Share
-duoshuo_share: true
+duoshuo_share: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
