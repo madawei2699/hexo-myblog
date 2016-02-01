@@ -171,7 +171,7 @@ mathjax: true
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 12dc9626a1466b4bcaf47445e640578f
 
 # Duoshuo ShortName
 duoshuo_shortname: madawei2699
