@@ -368,3 +368,11 @@ MEDIA
     width: 90%;
   }
 }
+
+#resumePDF {
+  padding: 5px;
+  margin-top: 10px;
+}
+#resumePDF a {
+  color: #EC7263;
+}
