@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Coder, Trader, GTDer"
+keywords: "Creator, Trader"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -71,9 +71,7 @@ scheme: Pisces
 # Social links
 social:
   GitHub: https://github.com/madawei2699
-  StackOf: http://stackoverflow.com/users/1615816/dawei-ma
   知乎: http://www.zhihu.com/people/zfish
-  Quora: https://www.quora.com/profile/Dawei-Ma-1
   Twitter: https://twitter.com/madawei2699
 
   # 等等
@@ -85,14 +83,14 @@ social_icons:
   GitHub: github
   Twitter: twitter
   知乎: book
-  Quora: question
-  StackOf: stack-overflow
+  # Quora: question
+  # StackOf: stack-overflow
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-avatar: /images/mdw-wr.jpg
+avatar: /images/mdw.png
 
 
 # TOC in the Sidebar
@@ -171,13 +169,13 @@ mathjax: true
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 12dc9626a1466b4bcaf47445e640578f
+# baidu_analytics: 12dc9626a1466b4bcaf47445e640578f
 
 # Duoshuo ShortName
-duoshuo_shortname: madawei2699
+# duoshuo_shortname: madawei2699
 
 # 多说热评文章 true 或者 false
-duoshuo_hotartical: false
+# duoshuo_hotartical: false
 
 # Disqus
 #disqus_shortname:
@@ -186,47 +184,47 @@ duoshuo_hotartical: false
 # jiathis: true
 
 # Share
-duoshuo_share: false
+# duoshuo_share: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification: xKJ4d_AoQVh00PZknPsBE4mMRZoaQ9P73vdB5OsYX3Y
+# google_site_verification: xKJ4d_AoQVh00PZknPsBE4mMRZoaQ9P73vdB5OsYX3Y
 
 
 # Google Analytics
-google_analytics: UA-73119166-1
+# google_analytics: UA-73119166-1
 
 
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: true
-  user_id: 6245864728590026000
-  admin_nickname: zFish
+# duoshuo_info:
+#   ua_enable: true
+#   admin_enable: true
+#   user_id: 6245864728590026000
+#   admin_nickname: zFish
 
 
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
-facebook_sdk:
-  enable: false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+# facebook_sdk:
+#   enable: false
+#   app_id:       #<app_id>
+#   fb_admin:     #<user_id>
+#   like_button:  #true
+#   webmaster:    #true
 
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: true
-  app_id: ETmaiB7TTHFcccuFtx0h1qCn-gzGzoHsz
-  app_key: LC4iSrbosJS1tvsmMBHxu7ah
+# leancloud_visitors:
+#   enable: true
+#   app_id: ETmaiB7TTHFcccuFtx0h1qCn-gzGzoHsz
+#   app_key: LC4iSrbosJS1tvsmMBHxu7ah
 
 
 # Tencent analytics ID
-tencent_analytics: 54347794
+# tencent_analytics: 54347794
 
 
 #! ---------------------------------------------------------------
