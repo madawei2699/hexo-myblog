@@ -16,47 +16,51 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            <div id="photo">
-              <img src="img/mdw.jpg" alt="avatar">
-            </div>
-            <div id="text-header">
-              <div class="row">
-                <div class="col-sm-2 hidden-xs"></div>
-                <div class="col-xs-12 col-sm-8">
-                  <h1>Dawei Ma's Resume<br>
-                  日积跬步，以至千里</h1>
-                </div>
-                <div id="resumePDF" class="col-sm-2 hidden-xs">
-                  <a type="button" class="btn btn-default btn-lg" href="madawei.pdf">下载PDF</a>
-                </div>
-              </div>
-            </div>  
-            
-          </div>
-        </div>
-      </div>
-      <div class="row">
+      <div class="row" style="margin-top:30px;">
         <div class="col-xs-12 col-sm-7">
           <!-- ABOUT ME -->
           <div class="box">
-            <h2>关于我</h2>
-            <p>我是一名Web全栈工程师，致力于开发能让生活变的更美好的产品。平时兴趣集中在App开发、交易系统建设和自我管理领域。</p>
+            <div><h2 style="display:inline;vertical-align:top;">关于我</h2> <p style="display:inline;margin-left:10px;">马大伟</p></div>
+            <p style="margin:10px 10px;">我是一名 Web “全栈”工程师，曾独立设计、开发、维护一款投资辅助工具产品及相关服务器端系统。也是一名“终身学习者”，曾有过一次互联网金融创业经历，用不到一年时间学习了金融领域相关知识，且持有证券从业及投资顾问资格证。具备很强的时间及项目管理能力，曾在两个月时间内，持续在知乎专栏及公众号写作，获取两千多粉丝。对新事物保持强烈的好奇心，利用业余时间学习研究区块链、量化交易技术，并为公司申请发明专利5件。</p>
           </div>
           <!-- EDUCATION -->
           <div class="box">
             <h2>项目</h2>
             <ul id="education" class="clearfix">
             <li>
+                <div class="year pull-left">2018.4</div>
+                <div class="description pull-right">
+                  <h3>数字对讲 App</h3>
+                  <p>项目描述：可通过蓝牙连接数字对讲机并设置相关配置信息，同时具备IM语音聊天功能。<br>
+                  项目职责：独立完成蓝牙多设备连接管理模块、设备设置模块、语音聊天模块。<br>
+                  开发语言：Swift & RxSwift
+                </div>
+            </li>
+            <li>
+                <div class="year pull-left">2017.6</div>
+                <div class="description pull-right">
+                  <h3>炭煤婆小程序</h3>
+                  <p>项目描述：煤炭价格信息展示平台。<br>
+                  项目职责：独立完成服务器端管理后台及整个小程序的设计、开发、测试、上线工作。<br>
+                  开发语言：JavaScript
+                </div>
+            </li>
+            <li>
+                <div class="year pull-left">2017.3</div>
+                <div class="description pull-right">
+                  <h3>米家对讲机</h3>
+                  <p>项目描述：是为小米米家对讲机量身打造的一款专属 App ，通过蓝牙快速连接对讲机，在无网络环境下可实现位置共享，具有快速设置频道等功能。<br>
+                  项目职责：独立完成 App 蓝牙扫描连接、固件升级、频道设置等功能；独立完成服务器端CMS系统的开发、部署架构工作。<br>
+                  开发语言：Objective-C & Python
+                </div>
+            </li>
+            <li>
                 <div class="year pull-left">2015.12</div>
                 <div class="description pull-right">
-                  <h3>交易日记App</h3>
+                  <h3>交易日记 App</h3>
                   <p>项目描述：股票组合及交易日记的管理。可管理交易日记、组合净值、组合持仓及历史持仓等交易信息。<br>
                   项目职责：独立完成服务器端管理后台及整个iOS App的设计、开发、测试、Apple Store上架及ASO的优化。<br>
-                  开发语言：Object-C & PHP (Laravel Framework)
+                  开发语言：Swift & Python
                 </div>
             </li>
             <li>
@@ -65,7 +69,7 @@
                   <h3>某互联网金融公司微信公众号运营管理平台</h3>
                   <p>项目描述：系统可管理多个微信公众号，设置自定义菜单，关键词回复，消息管理，客服管理，文章管理，权限管理。<br>
                   项目职责：技术开发、运维支持<br>
-                  开发语言：PHP
+                  开发语言：PHP & Laravel (Framework)
                 </div>
             </li>
             <li>
@@ -128,6 +132,11 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-5">
+          <!-- STATE -->
+          <div class="box clearfix">
+              <h2>目前状态</h2>
+              <p>在职，工作主要为开发及维护iOS App, 也会做少量前端、后端的开发。业余时间主要研究区块链技术、量化交易技术。</p>
+            </div>
           <!-- CONTACT -->
           <div class="box clearfix">
             <h2>联系方式</h2>
@@ -182,6 +191,16 @@
             <h2>工作</h2>
             <div class="job clearfix">
               <div class="col-xs-5">
+                <div class="where">西安蜂语科技(小米生态链)</div>
+                <div class="year">2016 - 至今</div>
+              </div>
+              <div class="col-xs-7">
+                <div class="profession">iOS软件工程师 & 后端开发</div>
+                <div class="description">负责公司iOS App研发及维护。</div>
+              </div>
+            </div>
+            <div class="job clearfix">
+              <div class="col-xs-5">
                 <div class="where">某互联网金融公司</div>
                 <div class="year">2015 - 2016</div>
               </div>
@@ -215,16 +234,11 @@
           <div class="box">
             <h2>技术栈</h2>
             <div class="skills">
-              <div class="item-skills" data-percent="0.75">Java & J2EE (Framework)</div>
-              <div class="item-skills" data-percent="0.73">Object-C & Swift</div>
-              <div class="item-skills" data-percent="0.70">Android</div>
-              <div class="item-skills" data-percent="0.65">PHP & Laravel (Framework)</div>
-              <div class="item-skills" data-percent="0.65">Python</div>
-              <div class="item-skills" data-percent="0.65">HTML & CSS & JS</div>              
-              <div class="item-skills" data-percent="0.63">Bootstrap & Jquery</div>
-              <div class="item-skills" data-percent="0.62">AngularJS</div>
-              <div class="item-skills" data-percent="0.60">Node.js</div>
-              <div class="item-skills" data-percent="0.45">Sketch & Photoshop</div>
+              <div class="item-skills" data-percent="0.86">Swift & Object-C</div>
+              <div class="item-skills" data-percent="0.80">Python & Django (Framework)</div>
+              <div class="item-skills" data-percent="0.78">Java & J2ee (Framework)</div>
+              <div class="item-skills" data-percent="0.75">Javascript & Vue (Framework) & HTML & CSS</div>
+              <div class="item-skills" data-percent="0.72">Linux & Docker</div>
               <div class="skills-legend clearfix">
                 <div class="legend-left legend">Beginner</div>
                 <div class="legend-left legend"><span>Proficient</span></div>
@@ -244,11 +258,10 @@
           <!-- HOBBIES -->
           <div class="box">
             <h2>兴趣爱好</h2>
-            <div class="hobby1"><i class="fa fa-dollar"></i>投资理财</div>
-            <div class="hobby1"><i class="fa fa-pencil"></i>写作</div>
+            <div class="hobby1"><i class="fa fa-dollar"></i>量化交易</div>
+            <div class="hobby1"><i class="fa fa-camera"></i>手机摄影</div>
             <div class="hobby1"><i class="fa fa-book"></i>阅读</div>
-            <div class="hobby1"><i class="fa fa-plane"></i>旅行</div>
-            <div class="hobby1"><i class="fa fa-film"></i>电影</div>
+            <div class="hobby1"><i class="fa fa-pencil"></i>写作</div>
           </div>
         </div>
       </div>

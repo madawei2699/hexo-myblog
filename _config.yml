@@ -5,14 +5,14 @@
 # Site
 title: Dawei Ma's Notes
 subtitle:
-description: Coder/Trader/GTDer
+description: Creator/Trader
 author: Dawei Ma
 language: zh-Hans
 timezone: Asia/Chongqing
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://madawei.net
+url: http://mdw.one
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
